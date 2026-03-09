@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 180" role="img" aria-labelledby="title">
+  <title>Techfix logo</title>
+  <g fill="#58C11D">
+    <path d="M44 86c18-10 37-15 58-16-20 7-35 17-47 31 16-3 31-2 45 3-18-16-24-31-17-46 13-12 28-20 46-24-14 7-24 18-29 34 19-8 40-10 64-7-17 0-34 5-49 14-15 9-25 21-31 37-14-12-28-20-40-26z"/>
+  </g>
+  <g transform="translate(145,18)">
+    <text x="0" y="108" font-family="Inter,Arial,sans-serif" font-size="96" font-style="italic" font-weight="800" letter-spacing="-3" fill="#FFFFFF">TECH</text>
+    <text x="326" y="108" font-family="Inter,Arial,sans-serif" font-size="96" font-style="italic" font-weight="500" letter-spacing="-4" fill="#58C11D">FIX</text>
+  </g>
+</svg>

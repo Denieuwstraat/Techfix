@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title>Techfix favicon</title>
+  <rect width="64" height="64" rx="14" fill="#0A0A0B"/>
+  <g fill="#58C11D">
+    <path d="M6 31c8-5 16-8 25-8-8 3-15 8-20 15 7-2 13-1 19 1-8-7-10-15-7-22 6-6 12-10 20-12-6 3-10 8-12 15 8-3 17-4 27-3-7 0-15 2-22 6-7 4-11 10-14 17-6-5-11-8-16-9z"/>
+  </g>
+  <text x="24" y="44" font-family="Inter,Arial,sans-serif" font-size="24" font-style="italic" font-weight="800" fill="#FFFFFF">TF</text>
+</svg>
