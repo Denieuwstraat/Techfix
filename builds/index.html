@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Techfix | Proof Builds</title>
+  <meta name="description" content="Bekijk Proof Builds met benchmarks, thermische analyses en stabiliteitstests." />
+  <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            techfix: "#58C11D"
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="../assets/styles.css" />
+</head>
+<body class="min-h-screen bg-zinc-950 text-zinc-100 selection:bg-techfix/30 selection:text-white">
+  <div class="pointer-events-none absolute inset-0 overflow-hidden">
+    <div class="absolute -top-24 left-1/2 h-72 w-72 -translate-x-1/2 rounded-full bg-techfix/15 blur-3xl"></div>
+    <div class="absolute right-0 top-[32rem] h-80 w-80 rounded-full bg-techfix/10 blur-3xl"></div>
+  </div>
+  
+<header class="sticky top-0 z-50 border-b border-white/10 bg-zinc-950/80 backdrop-blur-xl">
+  <div class="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-8">
+    <a href="../index.html" class="flex items-center gap-3">
+      <img src="../assets/logo-light.png" alt="Techfix logo" class="h-9 w-auto" />
+    </a>
+    <nav class="hidden items-center gap-8 md:flex">
+      <a data-nav href="../index.html" class="text-sm text-zinc-300 transition hover:text-techfix">Home</a>
+      <a data-nav href="../performance-lab/index.html" class="text-sm text-zinc-300 transition hover:text-techfix">Performance Lab</a>
+      <a data-nav href="../builds/index.html" class="text-sm text-zinc-300 transition hover:text-techfix">Builds</a>
+      <a data-nav href="../knowledge/index.html" class="text-sm text-zinc-300 transition hover:text-techfix">Knowledge</a>
+      <a data-nav href="../custom-build/index.html" class="text-sm text-zinc-300 transition hover:text-techfix">Custom Build</a>
+    </nav>
+    <a href="../custom-build/index.html" class="rounded-2xl bg-techfix px-4 py-2 text-sm font-semibold text-zinc-950 hover:opacity-90">Start jouw build</a>
+  </div>
+</header>
+
+  <main>
+<section class="mx-auto max-w-7xl px-6 pt-20 pb-10">
+  <div class="max-w-4xl">
+    <div class="text-sm uppercase tracking-[0.3em] text-techfix">Proof Builds</div>
+    <h1 class="mt-4 text-4xl md:text-5xl font-semibold tracking-tight text-white">Geen beloftes. Alleen bewijs.</h1>
+    <p class="mt-6 text-lg text-zinc-300">Elke Techfix build krijgt een Performance Validation Report. Dat betekent inzicht in use case, componentkeuze, benchmarks, thermische analyse en stabiliteit onder belasting.</p>
+  </div>
+</section>
+<section class="mx-auto max-w-7xl px-6 py-10">
+  <div class="grid md:grid-cols-3 gap-6">
+    <a href="tf-001/index.html" class="block rounded-[2rem] border border-white/10 bg-white/5 overflow-hidden hover:border-techfix/50 transition">
+      <img src="https://images.unsplash.com/photo-1587202372634-32705e3bf49c?auto=format&fit=crop&w=1600&q=80" alt="Techfix Build TF-001" class="aspect-[4/3] w-full object-cover" />
+      <div class="p-6"><div class="text-sm uppercase tracking-[0.25em] text-techfix">TF-001</div><h2 class="mt-3 text-2xl font-semibold text-white">4K gaming + creator workstation</h2><p class="mt-3 text-zinc-300">Ryzen 9 7950X · RTX 4090 · 24h stable</p></div>
+    </a>
+    <div class="rounded-[2rem] border border-white/10 bg-white/5 overflow-hidden opacity-80">
+      <img src="https://images.unsplash.com/photo-1591488320449-011701bb6704?auto=format&fit=crop&w=1600&q=80" alt="Toekomstige Techfix build" class="aspect-[4/3] w-full object-cover" />
+      <div class="p-6"><div class="text-sm uppercase tracking-[0.25em] text-techfix">TF-002</div><h2 class="mt-3 text-2xl font-semibold text-white">Performance gaming build</h2><p class="mt-3 text-zinc-300">Build case volgt binnenkort</p></div>
+    </div>
+    <div class="rounded-[2rem] border border-white/10 bg-white/5 overflow-hidden opacity-80">
+      <img src="https://images.unsplash.com/photo-1547082299-de196ea013d6?auto=format&fit=crop&w=1600&q=80" alt="Toekomstige Techfix build" class="aspect-[4/3] w-full object-cover" />
+      <div class="p-6"><div class="text-sm uppercase tracking-[0.25em] text-techfix">TF-003</div><h2 class="mt-3 text-2xl font-semibold text-white">AI / compute workstation</h2><p class="mt-3 text-zinc-300">Build case volgt binnenkort</p></div>
+    </div>
+  </div>
+</section>
+</main>
+  
+<footer class="border-t border-white/10">
+  <div class="mx-auto flex max-w-7xl flex-col gap-4 px-6 py-8 text-sm text-zinc-400 md:flex-row md:items-center md:justify-between lg:px-8">
+    <div><span class="text-zinc-200">Techfix</span> — Performance engineering voor custom pc's</div>
+    <div class="flex gap-6">
+      <a href="../performance-lab/index.html" class="transition hover:text-techfix">Performance Lab</a>
+      <a href="../builds/index.html" class="transition hover:text-techfix">Builds</a>
+      <a href="../knowledge/index.html" class="transition hover:text-techfix">Knowledge</a>
+      <a href="../custom-build/index.html" class="transition hover:text-techfix">Custom Build</a>
+    </div>
+  </div>
+</footer>
+
+  <script src="../assets/app.js"></script>
+</body>
+</html>
